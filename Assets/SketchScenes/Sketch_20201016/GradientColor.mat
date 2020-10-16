@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Dissolve_Player
-  m_Shader: {fileID: -6465566751694194690, guid: 3066b74726265be448ddc1c4c1cf9197, type: 3}
+  m_Name: GradientColor
+  m_Shader: {fileID: -6465566751694194690, guid: 66368be5e3082be4c95dca8618334007, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -43,16 +43,13 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_F8754150_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 206adb28e14acb0479ae315df5e1d743, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_7A2105E3: 0
+    - Vector1_4A67F1C4: 1
+    - Vector1_B1BB8F01: -0.72
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -75,13 +72,14 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_3EB412A1: {r: 0, g: 23.7852, b: 0.05881788, a: 0.8}
+    - Color_8C5DA51D: {r: 0.974858, g: 1, b: 0, a: 0}
+    - Color_A9099F19: {r: 1, g: 0, b: 0.6222677, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &1335312600445916716
+--- !u!114 &7246370602320181705
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
